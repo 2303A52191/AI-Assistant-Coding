@@ -1,0 +1,19 @@
+# Virtual environment
+env/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Django
+*.sqlite3
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large ML model files (>100MB — exceed GitHub file limit)
+recommender/ml/fertilizer_model.pkl
+recommender/ml/yield_model.pkl
